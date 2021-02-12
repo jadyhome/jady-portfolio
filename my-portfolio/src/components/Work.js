@@ -14,8 +14,22 @@ const Work = () => {
               className="work-image"
             />
           </div>
-          <p>github link</p>
-          <p>deployed link</p>
+          <p>
+            <a href="https://github.com/jadyhome/blooming">
+              <img
+                src="https://res.cloudinary.com/jadyhome/image/upload/v1612906936/portfolio/skill-icons/github.png"
+                alt="github-icon"
+                className="github-icon"
+              />
+            </a>
+            <a href="http://blooming.surge.sh/">
+              <img
+                src="https://res.cloudinary.com/jadyhome/image/upload/v1613167890/portfolio/skill-icons/deployed-icon.png"
+                alt="deployed-icon"
+                className="deployed-icon"
+              />
+            </a>
+          </p>
         </div>
 
         <div className="work2">
@@ -27,8 +41,22 @@ const Work = () => {
               className="work-image"
             />
           </div>
-          <p>github link</p>
-          <p>deployed link</p>
+          <p>
+            <a href="https://github.com/jadyhome/arting">
+              <img
+                src="https://res.cloudinary.com/jadyhome/image/upload/v1612906936/portfolio/skill-icons/github.png"
+                alt="github-icon"
+                className="github-icon"
+              />
+            </a>
+            <a href="https://arting.herokuapp.com/">
+              <img
+                src="https://res.cloudinary.com/jadyhome/image/upload/v1613167890/portfolio/skill-icons/deployed-icon.png"
+                alt="deployed-icon"
+                className="deployed-icon"
+              />
+            </a>
+          </p>
         </div>
 
         <div className="work3">
@@ -40,8 +68,22 @@ const Work = () => {
               className="work-image"
             />
           </div>
-          <p>github link</p>
-          <p>deployed link</p>
+          <p>
+            <a href="https://github.com/davey4/petsagram">
+              <img
+                src="https://res.cloudinary.com/jadyhome/image/upload/v1612906936/portfolio/skill-icons/github.png"
+                alt="github-icon"
+                className="github-icon"
+              />
+            </a>
+            <a href="https://petsagram-105.herokuapp.com/">
+              <img
+                src="https://res.cloudinary.com/jadyhome/image/upload/v1613167890/portfolio/skill-icons/deployed-icon.png"
+                alt="deployed-icon"
+                className="deployed-icon"
+              />
+            </a>
+          </p>
         </div>
 
         <div className="work4">
@@ -53,8 +95,22 @@ const Work = () => {
               className="work-image"
             />
           </div>
-          <p>github link</p>
-          <p>deployed link</p>
+          <p>
+            <a href="https://github.com/jadyhome/mother-tongue">
+              <img
+                src="https://res.cloudinary.com/jadyhome/image/upload/v1612906936/portfolio/skill-icons/github.png"
+                alt="github-icon"
+                className="github-icon"
+              />
+            </a>
+            <a href="https://mother-tongue.herokuapp.com/">
+              <img
+                src="https://res.cloudinary.com/jadyhome/image/upload/v1613167890/portfolio/skill-icons/deployed-icon.png"
+                alt="deployed-icon"
+                className="deployed-icon"
+              />
+            </a>
+          </p>
         </div>
       </div>
     </div>
