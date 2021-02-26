@@ -1,9 +1,10 @@
 import React from "react";
+import "../styles/About.css"
 
 const About = () => {
   return (
     <div className="about">
-      <h1>About Me</h1>
+      <h1 className="section-title">About Me</h1>
       <div className="about-box">
         <div className="about-me">
           <img
@@ -13,7 +14,10 @@ const About = () => {
           />
 
           <section className="about-info">
-            <h2 className="hello">Hello! <br />My name is Jady 😊</h2>
+            <h2 className="hello">
+              Hello! <br />
+              My name is Jady. 😊
+            </h2>
             <br />
             I am a visual thinker and goal-oriented software engineer.
             <br />
@@ -21,42 +25,34 @@ const About = () => {
             interfaces and experiences.
             <br />
             <br />
-            <strong>Contact me @ hyjady@gmail.com</strong>
             <br />
-            <br />
-            <div className="social-icons">
-              <a href="https://github.com/jadyhome">
-                <img
-                  src="https://res.cloudinary.com/jadyhome/image/upload/v1612906936/portfolio/skill-icons/github.png"
-                  alt="github-icon"
-                  className="icon"
-                />
-              </a>
-              <a href="https://www.linkedin.com/in/jadyhom/">
-                <img
-                  src="https://res.cloudinary.com/jadyhome/image/upload/v1612907231/portfolio/skill-icons/linkedin.png"
-                  alt="linkedin-icon"
-                  className="icon"
-                />
+            <div className="socials">
+              <a href="https://github.com/jadyhome" className="social-links">github</a>
+              <a href="https://www.linkedin.com/in/jadyhom/" className="social-links">linkedin</a>
+              <br />
+              <br />
+              <a href="mailto:hyjady@gmail.com" class="email" className="social-links">
+                hyjady@gmail.com
               </a>
             </div>
           </section>
 
           <section className="skills">
-          <h2>Here are a few technologies I've been working with:</h2>
-          <ol>
-            <ul>HTML + CSS</ul>
-            <ul>Javascript</ul>
-            <ul>React</ul>
-            <ul>Node.js</ul>
-            <ul>Express</ul>
-            <ul>MongoDB</ul>
-            <ul>PostgreSQL</ul>
-            <ul>Python</ul>
-          </ol>
+            <h2>Here are a few technologies I've been working with:</h2>
+            <ol>
+              <ul>HTML + CSS</ul>
+              <ul>Javascript</ul>
+              <ul>React</ul>
+              <ul>Node.js</ul>
+              <ul>Express</ul>
+              <ul>MongoDB</ul>
+              <ul>PostgreSQL</ul>
+              <ul>Python</ul>
+            </ol>
           </section>
         </div>
       </div>
+      <footer className="copyright">© 2021 by Jady Hom</footer>
     </div>
   );
 };
