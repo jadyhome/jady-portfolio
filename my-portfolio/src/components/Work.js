@@ -1,28 +1,17 @@
 import React from "react";
+import "../styles/Work.css"
 
 const Work = () => {
   return (
     <div className="work">
-      <h1>Works</h1>
+      <h1 className="section-title">Works</h1>
       <div className="cards-container">
         {/* <div className="work1">
           <div className="work-top">
             <h2>blooming</h2>
             <p>
-              <a href="https://github.com/jadyhome/blooming">
-                <img
-                  src="https://res.cloudinary.com/jadyhome/image/upload/v1612906936/portfolio/skill-icons/github.png"
-                  alt="github-icon"
-                  className="github-icon"
-                />
-              </a>
-              <a href="http://blooming.surge.sh/">
-                <img
-                  src="https://res.cloudinary.com/jadyhome/image/upload/v1613167890/portfolio/skill-icons/deployed-icon.png"
-                  alt="deployed-icon"
-                  className="deployed-icon"
-                />
-              </a>
+              <a href="https://github.com/jadyhome/blooming" target="_blank">github</a>
+              <a href="http://blooming.surge.sh/" target="_blank">website</a>
             </p>
           </div>
           <div className="image">
@@ -38,19 +27,19 @@ const Work = () => {
           <div className="work-top">
             <h2>arting</h2>
             <p>
-              <a href="https://github.com/jadyhome/arting">
-                <img
-                  src="https://res.cloudinary.com/jadyhome/image/upload/v1612906936/portfolio/skill-icons/github.png"
-                  alt="github-icon"
-                  className="github-icon"
-                />
+              <a
+                href="https://github.com/jadyhome/arting"
+                target="_blank"
+                className="links"
+              >
+                github
               </a>
-              <a href="https://arting.herokuapp.com/">
-                <img
-                  src="https://res.cloudinary.com/jadyhome/image/upload/v1613167890/portfolio/skill-icons/deployed-icon.png"
-                  alt="deployed-icon"
-                  className="deployed-icon"
-                />
+              <a
+                href="https://arting.herokuapp.com/"
+                target="_blank"
+                className="links"
+              >
+                website
               </a>
             </p>
           </div>
@@ -67,19 +56,19 @@ const Work = () => {
           <div className="work-top">
             <h2>petsagram</h2>
             <p>
-              <a href="https://github.com/davey4/petsagram">
-                <img
-                  src="https://res.cloudinary.com/jadyhome/image/upload/v1612906936/portfolio/skill-icons/github.png"
-                  alt="github-icon"
-                  className="github-icon"
-                />
+              <a
+                href="https://github.com/davey4/petsagram"
+                target="_blank"
+                className="links"
+              >
+                github
               </a>
-              <a href="https://petsagram-105.herokuapp.com/">
-                <img
-                  src="https://res.cloudinary.com/jadyhome/image/upload/v1613167890/portfolio/skill-icons/deployed-icon.png"
-                  alt="deployed-icon"
-                  className="deployed-icon"
-                />
+              <a
+                href="https://petsagram-105.herokuapp.com/"
+                target="_blank"
+                className="links"
+              >
+                website
               </a>
             </p>
           </div>
@@ -96,19 +85,19 @@ const Work = () => {
           <div className="work-top">
             <h2>mother-tongue</h2>
             <p>
-              <a href="https://github.com/jadyhome/mother-tongue">
-                <img
-                  src="https://res.cloudinary.com/jadyhome/image/upload/v1612906936/portfolio/skill-icons/github.png"
-                  alt="github-icon"
-                  className="github-icon"
-                />
+              <a
+                href="https://github.com/jadyhome/mother-tongue"
+                target="_blank"
+                className="links"
+              >
+                github
               </a>
-              <a href="https://mother-tongue.herokuapp.com/">
-                <img
-                  src="https://res.cloudinary.com/jadyhome/image/upload/v1613167890/portfolio/skill-icons/deployed-icon.png"
-                  alt="deployed-icon"
-                  className="deployed-icon"
-                />
+              <a
+                href="https://mother-tongue.herokuapp.com/"
+                target="_blank"
+                className="links"
+              >
+                website
               </a>
             </p>
           </div>
