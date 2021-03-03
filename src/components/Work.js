@@ -1,28 +1,11 @@
 import React from "react";
-import "../styles/Work.css"
+import "../styles/Work.css";
 
 const Work = () => {
   return (
     <div className="work">
       <h1 className="section-title">Works</h1>
       <div className="cards-container">
-        {/* <div className="work1">
-          <div className="work-top">
-            <h2>blooming</h2>
-            <p>
-              <a href="https://github.com/jadyhome/blooming" target="_blank">github</a>
-              <a href="http://blooming.surge.sh/" target="_blank">website</a>
-            </p>
-          </div>
-          <div className="image">
-            <img
-              src="https://res.cloudinary.com/jadyhome/image/upload/v1612896668/portfolio/blooming.png"
-              alt="blooming-pic"
-              className="work-image"
-            />
-          </div>
-        </div> */}
-
         <div className="work2">
           <div className="work-top">
             <h2>arting</h2>
@@ -105,6 +88,31 @@ const Work = () => {
             <img
               src="https://res.cloudinary.com/jadyhome/image/upload/v1612896746/portfolio/mother-tongue.png"
               alt="mother-tongue-pic"
+              className="work-image"
+            />
+          </div>
+        </div>
+
+        <div className="work5">
+          <div className="work-top">
+            <h2>portfolio</h2>
+            <p>
+              <a
+                href="https://github.com/jadyhome/jady-portfolio"
+                target="_blank"
+                className="links"
+              >
+                github
+              </a>
+              <a href="" target="_blank" className="links">
+                website
+              </a>
+            </p>
+          </div>
+          <div className="image">
+            <img
+              src="https://res.cloudinary.com/jadyhome/image/upload/v1614800370/portfolio/portfolio.png"
+              alt="portfolio-pic"
               className="work-image"
             />
           </div>
