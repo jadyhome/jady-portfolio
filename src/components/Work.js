@@ -104,7 +104,7 @@ const Work = () => {
               >
                 github
               </a>
-              <a href="" target="_blank" className="links">
+              <a href="https://jadyhom.netlify.app/" target="_blank" className="links">
                 website
               </a>
             </p>
