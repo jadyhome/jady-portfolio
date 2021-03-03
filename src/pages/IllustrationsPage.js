@@ -5,7 +5,7 @@ const IllustrationsPage = () => {
   return (
     <div className="illustration">
       <Navbar />
-      <h1 className="wip">UNDER CONSTRUCTION</h1>
+      <h1 className="wip">ILLUSTRATION PAGE <br /> UNDER CONSTRUCTION 🚧 🚧 🚧</h1>
     </div>
   );
 };
