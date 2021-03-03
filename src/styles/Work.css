@@ -29,6 +29,11 @@
   padding: 20px;
 }
 
+.work5 {
+  border: 2px solid #a0c7e2;
+  padding: 20px;
+}
+
 .work2:hover {
   box-shadow: 12px 12px 0 0 #4a4c53;
   transition-timing-function: ease;
@@ -47,6 +52,14 @@
 
 .work4:hover {
   box-shadow: 12px 12px 0 0 #4a4c53;
+  transition-timing-function: ease;
+  transition: 0.4s;
+  transform: translateY(-7px);
+  cursor: pointer;
+}
+
+.work5:hover {
+  box-shadow: 12px 12px 0 0 #a0c7e2;
   transition-timing-function: ease;
   transition: 0.4s;
   transform: translateY(-7px);
