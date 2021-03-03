@@ -21,7 +21,7 @@ A portfolio website to showcase all my projects and works, with links to my GitH
 
 ### Getting Started
 
-Check out my portfolio website → [Here]()
+Check out my portfolio website → [Here](https://jadyhom.netlify.app/)
 
 ---
 
