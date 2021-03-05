@@ -2,18 +2,14 @@
   text-align: center;
 }
 
-html {
-  height: 100vh;
-}
-
 h1 {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 48px;
   color: #a0c7e2;
 }
 
 h2 {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 18px;
   color: #4a4c53;
   margin-block-end: 10px;
@@ -24,6 +20,14 @@ p {
 }
 
 .section-title {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   text-align: left;
+}
+
+@media (max-width: 420px) {
+  .section-title {
+    font-family: "Roboto Mono", monospace;
+    font-size: 36px;
+    text-align: center;
+  }
 }
