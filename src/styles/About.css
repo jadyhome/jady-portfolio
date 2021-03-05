@@ -72,3 +72,16 @@ footer {
   padding-bottom: 20px;
   color: #4a4c53;
 }
+
+@media (max-width: 420px) {
+  .about {
+    margin-top: 20vh;
+  }
+
+  .about-me {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-items: center;
+    align-content: center;
+  }
+}
