@@ -44,3 +44,34 @@ nav {
 .links:hover {
   color: #a0c7e2;
 }
+
+@media (max-width: 420px) {
+  nav {
+    display: flex;
+    margin-top: 25px;
+  }
+
+  .navbar-links {
+    margin: 0 auto;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+  .name-logo {
+    font-family: "Roboto Mono", monospace;
+    font-size: 50px;
+    font-weight: 800;
+    color: #4a4c53;
+    text-decoration: none;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: 800;
+  }
+}
