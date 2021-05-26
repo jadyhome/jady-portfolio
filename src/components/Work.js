@@ -93,7 +93,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="work5">
+        {/* <div className="work5">
           <div className="work-top">
             <h2>portfolio</h2>
             <p>
@@ -116,7 +116,7 @@ const Work = () => {
               className="work-image"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
