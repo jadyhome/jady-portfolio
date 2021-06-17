@@ -6,21 +6,21 @@ const Work = () => {
     <div className="work">
       <h1 className="section-title">Works</h1>
       <div className="cards-container">
-        <div className="work2">
+        <div className="works">
           <div className="work-top">
             <h2>arting</h2>
             <p>
               <a
                 href="https://github.com/jadyhome/arting"
                 target="_blank"
-                className="links"
+                className="wlinks"
               >
                 github
               </a>
               <a
                 href="https://arting.herokuapp.com/"
                 target="_blank"
-                className="links"
+                className="wlinks"
               >
                 website
               </a>
@@ -35,21 +35,21 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="work3">
+        <div className="works">
           <div className="work-top">
             <h2>petsagram</h2>
             <p>
               <a
                 href="https://github.com/davey4/petsagram"
                 target="_blank"
-                className="links"
+                className="wlinks"
               >
                 github
               </a>
               <a
                 href="https://petsagram-105.herokuapp.com/"
                 target="_blank"
-                className="links"
+                className="wlinks"
               >
                 website
               </a>
@@ -64,21 +64,21 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="work4">
+        <div className="works">
           <div className="work-top">
             <h2>mother-tongue</h2>
             <p>
               <a
                 href="https://github.com/jadyhome/mother-tongue"
                 target="_blank"
-                className="links"
+                className="wlinks"
               >
                 github
               </a>
               <a
                 href="https://mother-tongue.herokuapp.com/"
                 target="_blank"
-                className="links"
+                className="wlinks"
               >
                 website
               </a>
@@ -93,18 +93,18 @@ const Work = () => {
           </div>
         </div>
 
-        {/* <div className="work5">
+        {/* <div className="works">
           <div className="work-top">
             <h2>portfolio</h2>
             <p>
               <a
                 href="https://github.com/jadyhome/jady-portfolio"
                 target="_blank"
-                className="links"
+                className="wlinks"
               >
                 github
               </a>
-              <a href="https://jadyhom.netlify.app/" target="_blank" className="links">
+              <a href="https://jadyhom.netlify.app/" target="_blank" className="wlinks">
                 website
               </a>
             </p>
