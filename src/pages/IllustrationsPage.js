@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 const IllustrationsPage = () => {
   return (
-    <div className="illustration">
+    <div className="illustrationspg">
       <Navbar />
       <h1 className="wip">ILLUSTRATION PAGE <br /> UNDER CONSTRUCTION 🚧 🚧 🚧</h1>
     </div>
