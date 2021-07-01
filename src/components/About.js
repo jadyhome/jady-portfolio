@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/About.css"
+import "../styles/About.css";
 
 const About = () => {
   return (
@@ -19,19 +19,31 @@ const About = () => {
               My name is Jady. 😊
             </h2>
             <br />
-            I am a visual thinker and goal-oriented software engineer.
+            I am a visual learner, thinker, and detail-oriented software
+            engineer.
             <br />
-            I have a passion for creating simple, efficient, and accessible user
-            interfaces and experiences.
+            I have a passion for creating thoughtful and accessible designs,
+            user interfaces, and experiences.
             <br />
             <br />
             <br />
             <div className="socials">
-              <a href="https://github.com/jadyhome" className="social-links">github</a>
-              <a href="https://www.linkedin.com/in/jadyhom/" className="social-links">linkedin</a>
+              <a href="https://github.com/jadyhome" className="social-links">
+                github
+              </a>
+              <a
+                href="https://www.linkedin.com/in/jadyhom/"
+                className="social-links"
+              >
+                linkedin
+              </a>
               <br />
               <br />
-              <a href="mailto:hyjady@gmail.com" class="email" className="social-links">
+              <a
+                href="mailto:hyjady@gmail.com"
+                class="email"
+                className="social-links"
+              >
                 hyjady@gmail.com
               </a>
             </div>
@@ -52,7 +64,9 @@ const About = () => {
           </section>
         </div>
       </div>
-      <footer className="copyright">© 2021 by Jady Hom</footer>
+      <footer className="copyright">
+        Created and Designed by Jady Hom © 2021
+      </footer>
     </div>
   );
 };
