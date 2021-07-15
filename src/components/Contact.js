@@ -7,14 +7,22 @@ const Contact = () => {
       <div className="contact-info">
         <h3>hyjady@gmail.com</h3>
         <div className="social-icons">
-          <a href="https://github.com/jadyhome">
+          <a
+            href="https://github.com/jadyhome"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <img
               src="https://res.cloudinary.com/jadyhome/image/upload/v1612906936/portfolio/skill-icons/github.png"
               alt="github-icon"
               className="icon"
             />
           </a>
-          <a href="https://www.linkedin.com/in/jadyhom/">
+          <a
+            href="https://www.linkedin.com/in/jadyhom/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <img
               src="https://res.cloudinary.com/jadyhome/image/upload/v1612907231/portfolio/skill-icons/linkedin.png"
               alt="linkedin-icon"
