@@ -12,6 +12,7 @@ const Work = () => {
             <p>
               <a
                 href="https://github.com/jadyhome/arting"
+                rel="noopener noreferrer"
                 target="_blank"
                 className="wlinks"
               >
@@ -19,6 +20,7 @@ const Work = () => {
               </a>
               <a
                 href="https://arting.herokuapp.com/"
+                rel="noopener noreferrer"
                 target="_blank"
                 className="wlinks"
               >
@@ -41,6 +43,7 @@ const Work = () => {
             <p>
               <a
                 href="https://github.com/davey4/petsagram"
+                rel="noopener noreferrer"
                 target="_blank"
                 className="wlinks"
               >
@@ -48,6 +51,7 @@ const Work = () => {
               </a>
               <a
                 href="https://petsagram-105.herokuapp.com/"
+                rel="noopener noreferrer"
                 target="_blank"
                 className="wlinks"
               >
@@ -70,6 +74,7 @@ const Work = () => {
             <p>
               <a
                 href="https://github.com/jadyhome/mother-tongue"
+                rel="noopener noreferrer"
                 target="_blank"
                 className="wlinks"
               >
@@ -77,6 +82,7 @@ const Work = () => {
               </a>
               <a
                 href="https://mother-tongue.herokuapp.com/"
+                rel="noopener noreferrer"
                 target="_blank"
                 className="wlinks"
               >
