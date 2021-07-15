@@ -28,11 +28,18 @@ const About = () => {
             <br />
             <br />
             <div className="socials">
-              <a href="https://github.com/jadyhome" className="social-links">
+              <a
+                href="https://github.com/jadyhome"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="social-links"
+              >
                 github
               </a>
               <a
                 href="https://www.linkedin.com/in/jadyhom/"
+                rel="noopener noreferrer"
+                target="_blank"
                 className="social-links"
               >
                 linkedin
