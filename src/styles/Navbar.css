@@ -4,7 +4,7 @@ nav {
 }
 
 .navbar-links {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .nlinks {
@@ -35,12 +35,12 @@ nav {
 
 .logo {
   margin-left: 100px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .name-logo {
   font-family: "Roboto Mono", monospace;
-  font-size: 40px;
+  font-size: 24px;
   font-weight: 800;
   color: #f6ff97;
   text-decoration: none;
@@ -73,14 +73,51 @@ nav {
   font-weight: 800;
 }
 
-@media (max-width: 420px) {
+@media screen and (max-width: 675px) {
   nav {
     display: flex;
     margin-top: 25px;
+    justify-content: center;
   }
 
   .navbar-links {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo {
     margin: 0 auto;
+    margin-left: 20px;
+  }
+
+  .name-logo {
+    font-family: "Roboto Mono", monospace;
+    font-size: 28px;
+    font-weight: 800;
+    text-decoration: none;
+  }
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 800;
+  }
+}
+@media screen and (max-width: 420px) {
+  nav {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 25px;
+    justify-content: center;
+  }
+
+  .navbar-links {
+    margin: 0;
+    padding: 0;
   }
 
   .logo {
@@ -89,14 +126,13 @@ nav {
 
   .name-logo {
     font-family: "Roboto Mono", monospace;
-    font-size: 50px;
+    font-size: 28px;
     font-weight: 800;
     text-decoration: none;
   }
-
   .nav-links {
-    display: flex;
-    justify-content: flex-end;
+    display: grid;
+    justify-content: center;
     margin-right: 5px;
     font-size: 20px;
     font-weight: 800;
