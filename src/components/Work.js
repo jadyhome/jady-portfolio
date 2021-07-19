@@ -35,6 +35,11 @@ const Work = () => {
               className="work-image"
             />
           </div>
+          <h4 className="techs">
+            technologies ↴
+            <br /> HTML5 + CSS3 + JavaScript + React
+            <br /> Node.js + Express + MongoDB + Mongoose
+          </h4>
         </div>
 
         <div className="works">
@@ -66,6 +71,11 @@ const Work = () => {
               className="work-image"
             />
           </div>
+          <h4 className="techs">
+            technologies ↴
+            <br /> HTML5 + CSS3 + JavaScript + React
+            <br /> Node.js + Express + PostgreSQL
+          </h4>
         </div>
 
         <div className="works">
@@ -97,32 +107,83 @@ const Work = () => {
               className="work-image"
             />
           </div>
+          <h4 className="techs">
+            technologies ↴
+            <br /> HTML5 + CSS3 + JavaScript + React
+            <br /> Node.js + Express + PostgreSQL
+          </h4>
         </div>
 
-        {/* <div className="works">
+        <div className="works">
           <div className="work-top">
-            <h2>portfolio</h2>
+            <h2>blooming</h2>
             <p>
               <a
-                href="https://github.com/jadyhome/jady-portfolio"
+                href="https://github.com/jadyhome/blooming2"
+                rel="noopener noreferrer"
                 target="_blank"
                 className="wlinks"
               >
                 github
               </a>
-              <a href="https://jadyhom.netlify.app/" target="_blank" className="wlinks">
+              <a
+                href="https://bloomingg.netlify.app/"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="wlinks"
+              >
                 website
               </a>
             </p>
           </div>
           <div className="image">
             <img
-              src="https://res.cloudinary.com/jadyhome/image/upload/v1614800370/portfolio/portfolio.png"
-              alt="portfolio-pic"
+              src="https://res.cloudinary.com/jadyhome/image/upload/v1626717678/portfolio/blooming2.png"
+              alt="blooming2-pic"
               className="work-image"
             />
           </div>
-        </div> */}
+          <h4 className="techs">
+            technologies ↴<br /> HTML5 + CSS3 + JavaScript + React + Figma
+          </h4>
+        </div>
+
+        <div className="works">
+          <div className="work-top">
+            <h2>eggs&potatoes</h2>
+            <p>
+              <a
+                href="https://github.com/jadyhome/egsandpotat"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="wlinks"
+              >
+                github
+              </a>
+              <a
+                href="tbd"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="wlinks"
+              >
+                website
+              </a>
+            </p>
+          </div>
+          <div className="image">
+            <img
+              src="https://res.cloudinary.com/jadyhome/image/upload/v1626720632/portfolio/under-construction.png"
+              alt="eggs&potatoes-pic"
+              className="work-image"
+            />
+          </div>
+          <h4 className="techs">
+            🔧WORK IN PROGRESS!🔨
+            <br />
+            technologies ↴
+            <br /> HTML5 + CSS3 + JavaScript + React + Figma + Procreate
+          </h4>
+        </div>
       </div>
     </div>
   );
