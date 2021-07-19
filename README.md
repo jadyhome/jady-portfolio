@@ -14,7 +14,8 @@ A portfolio website to showcase all my projects and works, with links to my GitH
 
 ### Technologies Used
 
-- HTML / CSS / Javascript
+- HTML + CSS
+- Javascript
 - React
 
 ---
