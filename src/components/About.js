@@ -20,10 +20,9 @@ const About = () => {
             </h2>
             <br />
             I am a visual learner, thinker, and detail-oriented software
-            engineer.
-            <br />
-            I have a passion for creating thoughtful and accessible designs,
-            user interfaces, and experiences.
+            engineer who is eager to learn, design, and develop. I have a
+            passion for creating interesting and thoughtful designs, user
+            interfaces, and experiences.
             <br />
             <br />
             <br />
@@ -59,14 +58,15 @@ const About = () => {
           <section className="skills">
             <h2>Here are a few technologies I've been working with:</h2>
             <ol>
-              <ul>HTML + CSS</ul>
-              <ul>Javascript</ul>
+              <ul>HTML5 + CSS3</ul>
+              <ul>JavaScript</ul>
               <ul>React</ul>
               <ul>Node.js</ul>
               <ul>Express</ul>
               <ul>MongoDB</ul>
               <ul>PostgreSQL</ul>
-              <ul>Python</ul>
+              <ul>Procreate</ul>
+              <ul>Figma</ul>
             </ol>
           </section>
         </div>
