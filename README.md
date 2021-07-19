@@ -26,21 +26,6 @@ Check out my portfolio website → [Here](https://jadyhom.netlify.app/)
 
 ---
 
-### Wireframe / Screenshots
-
-Final Mockup/Wireframe
-
-Home / Header
-![header-section](assets/header.png)
-
-Work
-![work-section](assets/works.png)
-
-About
-![about-section](assets/about.png)
-
----
-
 ### Future Updates
 
 - [ ] More Projects!
