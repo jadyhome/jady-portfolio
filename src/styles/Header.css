@@ -24,7 +24,7 @@
 
 .heading2 {
   font-family: "Roboto Mono", monospace;
-  font-size: 72px;
+  font-size: 70px;
   font-weight: 800;
   color: #f6ff97;
   margin-block-start: 0;
@@ -43,7 +43,7 @@
 @media (max-width: 420px) {
   .description {
     margin-block-start: 0;
-    text-align: left;
+    text-align: center;
     margin-top: 50px;
   }
 
@@ -57,14 +57,14 @@
 
   .heading2 {
     font-family: "Roboto Mono", monospace;
-    font-size: 54px;
+    font-size: 48px;
     font-weight: 800;
     margin-block-start: 0;
     margin-block-end: 0;
   }
 
   .flowers {
-    margin-top: 55px;
+    margin: 0;
     height: 100vh;
     opacity: 1;
   }
