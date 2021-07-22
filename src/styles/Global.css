@@ -1,35 +1,37 @@
 html {
-  background-color: #86a6c5;
+  background-color: #fcfcfc;
 }
 
 h1 {
   font-family: "Roboto Mono", monospace;
   font-size: 48px;
-  color: #f6ff97;
+  color: #323232;
 }
 
 h2 {
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
-  color: #313641;
+  color: #323232;
   margin-block-end: 10px;
 }
 
 p {
-  color: #313641;
+  color: #323232;
 }
 
 .section-title {
   font-family: "Roboto Mono", monospace;
   text-align: left;
+  color: #323232;
 }
 
 .links {
   margin-left: 10px;
   font-family: "Roboto Mono", monospace;
-  color: #313641;
+  color: #323232;
   text-decoration: none;
-  border-bottom: 4px solid #313641;
+  padding-bottom: 1px;
+  border-bottom: 4px solid #323232;
   transition: all 0.25s linear;
   position: relative;
 }
@@ -37,9 +39,9 @@ p {
 .links:before {
   content: "";
   width: 100%;
-  height: 4px;
-  bottom: -4px;
-  background-color: #f6ff97;
+  height: 5px;
+  bottom: -5px;
+  background-color: #323232;
   position: absolute;
   transform-origin: left;
   transform: scale(0);
