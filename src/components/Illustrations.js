@@ -24,7 +24,7 @@ const Illustrations = () => {
           </h4>
         </div>
       </div> */}
-      <h2>WORK IN PROGRESS!</h2>
+      <h2 className="wip">WORK IN PROGRESS!</h2>
     </div>
   );
 };
