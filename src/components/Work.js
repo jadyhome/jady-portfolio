@@ -6,7 +6,7 @@ const Work = () => {
     <div className="work">
       <h1 className="section-title">Works</h1>
       <div className="cards-container">
-        <div className="works">
+        <div className="work1">
           <div className="work-top">
             <h2>arting</h2>
             <p>
@@ -42,7 +42,7 @@ const Work = () => {
           </h4>
         </div>
 
-        <div className="works">
+        <div className="work2">
           <div className="work-top">
             <h2>petsagram</h2>
             <p>
@@ -78,7 +78,7 @@ const Work = () => {
           </h4>
         </div>
 
-        <div className="works">
+        <div className="work3">
           <div className="work-top">
             <h2>mother-tongue</h2>
             <p>
@@ -114,7 +114,7 @@ const Work = () => {
           </h4>
         </div>
 
-        <div className="works">
+        <div className="work4">
           <div className="work-top">
             <h2>blooming</h2>
             <p>
@@ -148,7 +148,7 @@ const Work = () => {
           </h4>
         </div>
 
-        <div className="works">
+        <div className="work5">
           <div className="work-top">
             <h2>eggs&potatoes</h2>
             <p>
@@ -178,10 +178,12 @@ const Work = () => {
             />
           </div>
           <h4 className="techs">
+            technologies ↴
+            <br /> HTML5 + CSS3 + JavaScript + React
+            <br /> Figma + Procreate
+            <br />
             🔧WORK IN PROGRESS!🔨
             <br />
-            technologies ↴
-            <br /> HTML5 + CSS3 + JavaScript + React + Figma + Procreate
           </h4>
         </div>
       </div>
