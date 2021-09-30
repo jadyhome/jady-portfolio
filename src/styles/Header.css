@@ -30,28 +30,6 @@
   width: 500px;
 }
 
-.p {
-  font-size: 70px;
-  font-weight: 800;
-  color: #ffa6d1;
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-.y {
-  font-size: 70px;
-  font-weight: 800;
-  color: #ffeb7f;
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-.b {
-  font-size: 70px;
-  font-weight: 800;
-  color: #a6dfff;
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-
 .flowers {
   position: absolute;
   object-fit: cover;
