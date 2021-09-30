@@ -15,17 +15,13 @@ const About = () => {
 
           <section className="about-info">
             <h2 className="hello">
-              Hello! <br />
-              My name is Jady. 😊
+              Hello! 👋
+              <br />
+              <strong>I'm Jady</strong>, a <u>graphic designer</u>,{" "}
+              <em>illustrator</em>, <strong>web designer</strong>, and plant
+              lover based in <em>New York City</em>.
+              <br />
             </h2>
-            <br />
-            I am a visual learner, thinker, and detail-oriented software
-            engineer who is eager to learn, design, and develop.
-            <br />
-            I have a passion for creating fun, interesting, and thoughtful
-            designs, user interfaces, user experiences, and websites.
-            <br />
-            <br />
             <br />
             <div className="socials">
               <a
@@ -57,7 +53,9 @@ const About = () => {
           </section>
 
           <section className="skills">
-            <h2 className="tech">Here are a few technologies I've been working with:</h2>
+            <h2 className="tech">
+              Here are a few technologies I've been working with:
+            </h2>
             <ol>
               <ul>HTML5 + CSS3</ul>
               <ul>JavaScript</ul>
