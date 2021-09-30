@@ -7,12 +7,18 @@ const Header = () => {
       <div className="header">
         <div className="header-container">
           <div className="description">
-            <p className="heading1">Hello, I am a</p>
-            <div className="heading2">
-              <h1 className="p">Software Engineer +</h1>
-              <h1 className="y">Visual Thinker +</h1>
-              <h1 className="b">Illustrator</h1>
-            </div>
+            <p className="heading1">
+              Hello, I am a
+              <br /> Software Engineer
+              <br /> Visual Thinker
+              <br /> Illustrator
+            </p>
+            <p className="heading2">
+              <br />I am a visual learner, thinker, and detail-oriented software
+              engineer who is eager to learn, design, and develop. I have a
+              passion for creating <em>fun</em>, <strong>interesting</strong>,
+              and <u>thoughtful</u> designs and websites.
+            </p>
           </div>
           <img
             src="https://res.cloudinary.com/jadyhome/image/upload/v1614201614/portfolio/flowers3.png"
