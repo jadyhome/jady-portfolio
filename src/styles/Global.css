@@ -2,32 +2,39 @@ html {
   background-color: #fcfcfc;
 }
 
+.home {
+  margin: 0 100px 100px 100px;
+}
+
 h1 {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Karla", sans-serif;
   font-size: 48px;
   color: #323232;
 }
 
 h2 {
-  font-family: "Roboto Mono", monospace;
-  font-size: 18px;
+  font-family: "Karla", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
   color: #323232;
-  margin-block-end: 10px;
 }
 
 p {
   color: #323232;
+  font-size: 24px;
 }
 
 .section-title {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Karla", sans-serif;
+  font-size: 54px;
+  font-weight: 800;
   text-align: left;
   color: #323232;
 }
 
 .links {
   margin-left: 10px;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Karla", sans-serif;
   color: #323232;
   text-decoration: none;
   padding-bottom: 1px;
@@ -54,7 +61,7 @@ p {
 
 @media (max-width: 420px) {
   .section-title {
-    font-family: "Roboto Mono", monospace;
+    font-family: "Karla", sans-serif;
     font-size: 36px;
     text-align: center;
   }
