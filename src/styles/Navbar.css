@@ -1,11 +1,11 @@
-.logo {
+nav {
+  margin-top: 30px;
   margin-left: 100px;
-  margin-top: 40px;
 }
 
 .name-logo {
-  font-family: "Roboto Mono", monospace;
-  font-size: 24px;
+  font-family: "Karla", sans-serif;
+  font-size: 32px;
   font-weight: 800;
   padding-bottom: 5px;
   color: #323232;
@@ -74,7 +74,7 @@
     margin-left: 20px;
   }
   .name-logo {
-    font-family: "Roboto Mono", monospace;
+    font-family: "Karla", sans-serif;
     font-size: 28px;
     font-weight: 800;
     text-decoration: none;
@@ -90,7 +90,7 @@
     margin: 0 auto;
   }
   .name-logo {
-    font-family: "Roboto Mono", monospace;
+    font-family: "Karla", sans-serif;
     font-size: 28px;
     font-weight: 800;
     text-decoration: none;
