@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="logo">
         {
           <Link to="/" className="name-logo">
-            jady hom
+            Jady Hom
           </Link>
         }
       </div>
