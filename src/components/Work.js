@@ -1,191 +1,39 @@
-import React from "react";
+import { useState, useEffect } from "react";
+import { workdata } from "../workdata";
 import "../styles/Work.css";
 
 const Work = () => {
+  const [data, setDatas] = useState([]);
+
+  useEffect(() => {
+    fetch();
+  }, []);
+
+  const fetch = () => {
+    setDatas(workdata);
+  };
+
   return (
     <div className="work">
       <h1 className="section-title">Works</h1>
       <div className="cards-container">
-        <div className="work1">
-          <div className="work-top">
-            <h2>arting</h2>
-            <p>
-              <a
-                href="https://github.com/jadyhome/arting"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="wlinks"
-              >
-                github
-              </a>
-              <a
-                href="https://arting.herokuapp.com/"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="wlinks"
-              >
-                website
-              </a>
-            </p>
-          </div>
-          <div className="image">
-            <img
-              src="https://res.cloudinary.com/jadyhome/image/upload/v1612896410/portfolio/arting-page.png"
-              alt="arting-pic"
-              className="work-image"
-            />
-          </div>
-          <h4 className="techs">
-            technologies ↴
-            <br /> HTML5 + CSS3 + JavaScript + React
-            <br /> Node.js + Express + MongoDB + Mongoose
-          </h4>
-        </div>
-
-        <div className="work2">
-          <div className="work-top">
-            <h2>petsagram</h2>
-            <p>
-              <a
-                href="https://github.com/davey4/petsagram"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="wlinks"
-              >
-                github
-              </a>
-              <a
-                href="https://petsagram-105.herokuapp.com/"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="wlinks"
-              >
-                website
-              </a>
-            </p>
-          </div>
-          <div className="image">
-            <img
-              src="https://res.cloudinary.com/jadyhome/image/upload/v1612896333/portfolio/petsagram-page.png"
-              alt="petsagram-pic"
-              className="work-image"
-            />
-          </div>
-          <h4 className="techs">
-            technologies ↴
-            <br /> HTML5 + CSS3 + JavaScript + React
-            <br /> Node.js + Express + PostgreSQL
-          </h4>
-        </div>
-
-        <div className="work3">
-          <div className="work-top">
-            <h2>mother-tongue</h2>
-            <p>
-              <a
-                href="https://github.com/jadyhome/mother-tongue"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="wlinks"
-              >
-                github
-              </a>
-              <a
-                href="https://mother-tongue.herokuapp.com/"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="wlinks"
-              >
-                website
-              </a>
-            </p>
-          </div>
-          <div className="image">
-            <img
-              src="https://res.cloudinary.com/jadyhome/image/upload/v1612896746/portfolio/mother-tongue.png"
-              alt="mother-tongue-pic"
-              className="work-image"
-            />
-          </div>
-          <h4 className="techs">
-            technologies ↴
-            <br /> HTML5 + CSS3 + JavaScript + React
-            <br /> Node.js + Express + PostgreSQL
-          </h4>
-        </div>
-
-        <div className="work4">
-          <div className="work-top">
-            <h2>blooming</h2>
-            <p>
-              <a
-                href="https://github.com/jadyhome/blooming2"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="wlinks"
-              >
-                github
-              </a>
-              <a
-                href="https://bloomingg.netlify.app/"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="wlinks"
-              >
-                website
-              </a>
-            </p>
-          </div>
-          <div className="image">
-            <img
-              src="https://res.cloudinary.com/jadyhome/image/upload/v1626717678/portfolio/blooming2.png"
-              alt="blooming2-pic"
-              className="work-image"
-            />
-          </div>
-          <h4 className="techs">
-            technologies ↴<br /> HTML5 + CSS3 + JavaScript + React + Figma
-          </h4>
-        </div>
-
-        <div className="work5">
-          <div className="work-top">
-            <h2>eggs&potatoes</h2>
-            <p>
-              <a
-                href="https://github.com/jadyhome/egsandpotat"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="wlinks"
-              >
-                github
-              </a>
-              <a
-                href="tbd"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="wlinks"
-              >
-                website
-              </a>
-            </p>
-          </div>
-          <div className="image">
-            <img
-              src="https://res.cloudinary.com/jadyhome/image/upload/v1626720632/portfolio/under-construction.png"
-              alt="eggs&potatoes-pic"
-              className="work-image"
-            />
-          </div>
-          <h4 className="techs">
-            technologies ↴
-            <br /> HTML5 + CSS3 + JavaScript + React
-            <br /> Figma + Procreate
-            <br />
-            🔧WORK IN PROGRESS!🔨
-            <br />
-          </h4>
-        </div>
+        {data.map((work, index) => {
+          return (
+            <div key={index} className="works">
+              <div className="work-image">
+                <p>{work.image}</p>
+              </div>
+              <div className="work-top">
+                <h2>{work.title}</h2>
+                <div className="sites">
+                  <p>{work.github}</p>
+                  <p>{work.website}</p>
+                </div>
+              </div>
+              <h3 className="techs">{work.techs}</h3>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
