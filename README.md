@@ -44,10 +44,14 @@ Check out my portfolio website → [Here](https://jadyhom.netlify.app/)
 <img src="assets/86a6c5.png" alt="html hex color - #86a6c5" width="150"/>
 <img src="assets/313641.png" alt="html hex color - #313641" width="150"/>
 
-3rd palette _(current color scheme)_ \
+3rd palette \
 <img src="assets/ffa6d1.png" alt="html hex color - #ffa6d1" width="150"/>
 <img src="assets/ffeb7f.png" alt="html hex color - #ffeb7f" width="150"/>
 <img src="assets/a6dfff.png" alt="html hex color - #a6dfff" width="150"/>
+<img src="assets/323232.png" alt="html hex color - #323232" width="150"/>
+<img src="assets/fcfcfc.png" alt="html hex color - #fcfcfc" width="150"/>
+
+4th palette _(current color scheme)_ \
 <img src="assets/323232.png" alt="html hex color - #323232" width="150"/>
 <img src="assets/fcfcfc.png" alt="html hex color - #fcfcfc" width="150"/>
 
@@ -58,3 +62,5 @@ Check out my portfolio website → [Here](https://jadyhom.netlify.app/)
 [Netlify](www.netlify.com)
 
 [Google Font - Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono?preview.text_type=custom)
+
+[Google Font - Karla](https://fonts.google.com/specimen/Karla?query=karla)
