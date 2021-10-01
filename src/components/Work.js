@@ -24,11 +24,9 @@ const Work = () => {
                 <p>{work.image}</p>
               </div>
               <div className="work-top">
-                <h2>{work.title}</h2>
-                <div className="sites">
-                  <p>{work.github}</p>
-                  <p>{work.website}</p>
-                </div>
+                <h2 className="title">{work.title}</h2>
+                <h2>{work.github}</h2>
+                <h2>{work.website}</h2>
               </div>
               <h3 className="techs">{work.techs}</h3>
             </div>
