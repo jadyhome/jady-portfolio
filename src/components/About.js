@@ -17,8 +17,8 @@ const About = () => {
             <h2 className="hello">
               Hello! 👋
               <br />
-              <strong>I'm Jady</strong>, a <u>graphic designer</u>,{" "}
-              <em>illustrator</em>, <strong>web designer</strong>, and plant
+              <strong>I'm Jady</strong>, a <u>web developer</u>,{" "}
+              <em>illustrator</em>, <strong>graphic designer</strong>, and plant
               lover based in <em>New York City</em>.
               <br />
             </h2>
