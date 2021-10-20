@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { workdata } from "../workdata";
 import "../styles/Work.css";
 
@@ -6,10 +6,10 @@ const Work = () => {
   const [data, setDatas] = useState([]);
 
   useEffect(() => {
-    fetch();
+    fetchWorks();
   }, []);
 
-  const fetch = () => {
+  const fetchWorks = () => {
     setDatas(workdata);
   };
 
