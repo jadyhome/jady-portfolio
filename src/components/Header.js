@@ -10,11 +10,11 @@ const Header = () => {
             <p className="heading1">
               Hello, I am a
               <br /> Software Engineer
-              <br /> Visual Thinker
+              <br /> Creative Thinker
               <br /> Illustrator
             </p>
             <p className="heading2">
-              <br />I am a visual learner, thinker, and detail-oriented software
+              <br />I am a visual learner, creative thinker, and detail-oriented software
               engineer who is eager to learn, design, and develop. I have a
               passion for creating <em>fun</em>, <strong>interesting</strong>,
               and <u>thoughtful</u> designs and websites.
