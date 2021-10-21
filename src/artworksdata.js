@@ -20,7 +20,7 @@ export const artworksdata = [
     image: (
       <Link to="/colorsproject" className="to_colors_proj">
         <img
-          src="https://res.cloudinary.com/jadyhome/image/upload/v1634847501/portfolio/COLORS/colorcover.png"
+          src="https://res.cloudinary.com/jadyhome/image/upload/v1634847501/portfolio/colorcover.png"
           alt="colors-cover"
           className="art-image"
         />
