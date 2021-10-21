@@ -1,3 +1,9 @@
+.pageloading {
+  font-family: "Karla", sans-serif;
+  font-size: 250px;
+  text-align: center;
+}
+
 html {
   background-color: #fcfcfc;
 }
