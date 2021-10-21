@@ -14,15 +14,19 @@ export const artworksdata = [
       </Link>
     ),
   },
-  // {
-  //   title: "COLORS",
-  //   brief_info: "New Media Arts Capstone Project",
-  //   image: (
-  //     <Link to="/colorsseries" className="to_colors_series">
-  //       <img src="" alt="colors-cover" className="art-image" />
-  //     </Link>
-  //   ),
-  // },
+  {
+    title: "Feeling Colors",
+    brief_info: "New Media Arts Capstone Project",
+    image: (
+      <Link to="/colorsproject" className="to_colors_proj">
+        <img
+          src="https://res.cloudinary.com/jadyhome/image/upload/v1634847501/portfolio/COLORS/colorcover.png"
+          alt="colors-cover"
+          className="art-image"
+        />
+      </Link>
+    ),
+  },
   // {
   //   title: "Flower Series",
   //   brief_info: "A series of botanical illustrations done in Procreate.",
