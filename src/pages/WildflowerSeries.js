@@ -1,21 +1,28 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import { wildflowerdata } from "../wildflowerdata";
+import { artworksdata } from "../artworksdata";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import wildflowerPDF from "../wildflowers.pdf";
 import "../styles/Artworks.css";
 
 const WildflowerSeries = () => {
+  const [otherartworks, setOtherArtworks] = useState([]);
   const [wildflowers, setWildflowers] = useState([]);
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
 
   useEffect(() => {
     fetchWildflowers();
+    fetchOthers();
   }, []);
 
   const fetchWildflowers = () => {
     setWildflowers(wildflowerdata);
+  };
+
+  const fetchOthers = () => {
+    setOtherArtworks(artworksdata);
   };
 
   const onDocumentLoadSuccess = ({ numPages }) => {
@@ -93,6 +100,26 @@ const WildflowerSeries = () => {
           </div>
         </div>
       </div>
+
+      <div className="other-artworks">
+        <h1 className="section-title">Other Artworks</h1>
+        {otherartworks.map((otherart, index) => {
+          if (otherart.title !== "Wildflower Series") {
+            return (
+              <div key={index} className="arts">
+                <div className="artcover-image">{otherart.image}</div>
+                <div className="art-top">
+                  <h2 className="art-title">{otherart.title}</h2>
+                </div>
+                <div className="brief">
+                  <h2 className="art-brief">{otherart.brief_info}</h2>
+                </div>
+              </div>
+            );
+          }
+        })}
+      </div>
+      <footer className="Jady">Created and Designed by Jady Hom © 2021</footer>
     </div>
   );
 };
