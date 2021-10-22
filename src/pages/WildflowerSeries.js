@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useLayoutEffect } from "react";
 import Navbar from "../components/Navbar";
 import { wildflowerdata } from "../wildflowerdata";
 import { artworksdata } from "../artworksdata";
@@ -16,6 +16,10 @@ const WildflowerSeries = () => {
     fetchWildflowers();
     fetchOthers();
   }, []);
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
   const fetchWildflowers = () => {
     setWildflowers(wildflowerdata);
