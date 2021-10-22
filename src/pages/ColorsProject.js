@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useLayoutEffect } from "react";
 import Navbar from "../components/Navbar";
 import { artworksdata } from "../artworksdata";
 import ReactPlayer from "react-player";
@@ -10,6 +10,10 @@ const ColorsProject = () => {
   useEffect(() => {
     fetchOthers();
   }, []);
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
   const fetchOthers = () => {
     setOtherArtworks(artworksdata);
