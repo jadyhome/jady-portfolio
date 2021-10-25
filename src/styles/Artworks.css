@@ -41,28 +41,19 @@
   object-fit: contain;
   pointer-events: none;
 }
-.pdf {
-  font-size: 36px;
+.wild-container2 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  row-gap: 50px;
   position: relative;
+  justify-items: center;
+  margin: 100px;
 }
-.pdfButton {
-  text-align: center;
-}
-.pgs {
-  font-family: "Karla", sans-serif;
-  font-weight: bolder;
-  font-size: 20px;
-  color: #323232;
-}
-.prevButton,
-.nextButton {
-  border: 0;
-  background-color: #323232;
-  color: #fcfcfc;
-  width: 40px;
-  height: 20px;
+.wildflower-image2 {
+  width: 700px;
+  height: 700px;
+  object-fit: contain;
+  pointer-events: none;
 }
 
 .colorsproj {
@@ -138,7 +129,7 @@
   transform: rotate(-2deg);
 }
 
-.section-title {
+.section-title2 {
   margin-left: 100px;
 }
 .other-artworks {
@@ -209,29 +200,6 @@
     object-fit: contain;
     pointer-events: none;
   }
-  .pdf {
-    font-size: 36px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr 1fr));
-    position: relative;
-  }
-  .pdfButton {
-    text-align: center;
-  }
-  .pgs {
-    font-family: "Karla", sans-serif;
-    font-weight: bolder;
-    font-size: 20px;
-    color: #323232;
-  }
-  .prevButton,
-  .nextButton {
-    border: 0;
-    background-color: #323232;
-    color: #fcfcfc;
-    width: 40px;
-    height: 20px;
-  }
 }
 @media (max-width: 420px) {
   .artworks {
@@ -278,29 +246,6 @@
     object-fit: contain;
     pointer-events: none;
   }
-  .pdf {
-    font-size: 36px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr 1fr));
-    position: relative;
-  }
-  .pdfButton {
-    text-align: center;
-  }
-  .pgs {
-    font-family: "Karla", sans-serif;
-    font-weight: bolder;
-    font-size: 20px;
-    color: #323232;
-  }
-  .prevButton,
-  .nextButton {
-    border: 0;
-    background-color: #323232;
-    color: #fcfcfc;
-    width: 40px;
-    height: 20px;
-  }
 }
 @media (max-width: 320px) {
   .artworks {
@@ -345,28 +290,5 @@
     width: 300px;
     object-fit: contain;
     pointer-events: none;
-  }
-  .pdf {
-    font-size: 36px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr 1fr));
-    position: relative;
-  }
-  .pdfButton {
-    text-align: center;
-  }
-  .pgs {
-    font-family: "Karla", sans-serif;
-    font-weight: bolder;
-    font-size: 20px;
-    color: #323232;
-  }
-  .prevButton,
-  .nextButton {
-    border: 0;
-    background-color: #323232;
-    color: #fcfcfc;
-    width: 40px;
-    height: 20px;
   }
 }
