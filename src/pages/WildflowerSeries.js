@@ -1,18 +1,17 @@
 import React, { useState, useEffect, useLayoutEffect } from "react";
 import Navbar from "../components/Navbar";
+import { wildflowerdataOne } from "../wildflowerdataOne";
 import { wildflowerdata } from "../wildflowerdata";
 import { artworksdata } from "../artworksdata";
-import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
-import wildflowerPDF from "../wildflowers.pdf";
 import "../styles/Artworks.css";
 
 const WildflowerSeries = () => {
   const [otherartworks, setOtherArtworks] = useState([]);
+  const [wildflowersOne, setWildflowersOne] = useState([]);
   const [wildflowers, setWildflowers] = useState([]);
-  const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
 
   useEffect(() => {
+    fetchWildflowersOne();
     fetchWildflowers();
     fetchOthers();
   }, []);
@@ -20,6 +19,10 @@ const WildflowerSeries = () => {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
   });
+
+  const fetchWildflowersOne = () => {
+    setWildflowersOne(wildflowerdataOne);
+  };
 
   const fetchWildflowers = () => {
     setWildflowers(wildflowerdata);
@@ -29,38 +32,32 @@ const WildflowerSeries = () => {
     setOtherArtworks(artworksdata);
   };
 
-  const onDocumentLoadSuccess = ({ numPages }) => {
-    setNumPages(numPages);
-    setPageNumber(1);
-  };
-
-  const changePage = (offset) => {
-    setPageNumber((prevPageNumber) => prevPageNumber + offset);
-  };
-
-  const previousPage = () => {
-    changePage(-1);
-  };
-
-  const nextPage = () => {
-    changePage(1);
-  };
-
   return (
     <div className="wildflowerseries">
       <Navbar />
       <div className="wild-container">
         <div className="series-info">
           <h1 className="series-title">Wildflower Series</h1>
-          <h2 className="type">DIGITAL, TRADITIONAL</h2>
+          <h2 className="type">DIGITAL + TRADITIONAL</h2>
           <p>
             A series of wildflower illustrations done traditionally with ink and
             watercolor. This series was made into a small artbook using Adobe
             InDesign and Photoshop. The concept of this artbook is an A - Z of
-            wildflowers with their respective informations.
+            wildflowers with their respective informations. (With the exception
+            of U and X)
           </p>
         </div>
 
+        {wildflowersOne.map((wildOne, index) => {
+          return (
+            <div key={index} className="wilds">
+              <div className="wild-images">{wildOne.image}</div>
+            </div>
+          );
+        })}
+      </div>
+
+      <div className="wild-container2">
         {wildflowers.map((wild, index) => {
           return (
             <div key={index} className="wilds">
@@ -68,45 +65,9 @@ const WildflowerSeries = () => {
             </div>
           );
         })}
-
-        <div className="pdf">
-          {" "}
-          PDF
-          <Document
-            file={wildflowerPDF}
-            onLoadSuccess={onDocumentLoadSuccess}
-            options={{
-              cMapUrl: "cmaps/",
-              cMapPacked: true,
-            }}
-          >
-            <Page pageNumber={pageNumber} />
-          </Document>
-          <div className="pdfButton">
-            <p className="pgs">
-              <button
-                className="prevButton"
-                type="button"
-                disabled={pageNumber <= 1}
-                onClick={previousPage}
-              >
-                ←
-              </button>{" "}
-              {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}{" "}
-              <button
-                className="nextButton"
-                type="button"
-                disabled={pageNumber >= numPages}
-                onClick={nextPage}
-              >
-                →
-              </button>
-            </p>
-          </div>
-        </div>
       </div>
 
-      <h1 className="section-title">Other Artworks</h1>
+      <h1 className="section-title2">Other Artworks</h1>
       <div className="other-artworks">
         {otherartworks.map((otherart, index) => {
           if (otherart.title !== "Wildflower Series") {
