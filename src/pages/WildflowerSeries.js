@@ -52,6 +52,7 @@ const WildflowerSeries = () => {
       <div className="wild-container">
         <div className="series-info">
           <h1 className="series-title">Wildflower Series</h1>
+          <h2 className="type">DIGITAL, TRADITIONAL</h2>
           <p>
             A series of wildflower illustrations done traditionally with ink and
             watercolor. This series was made into a small artbook using Adobe
@@ -105,8 +106,8 @@ const WildflowerSeries = () => {
         </div>
       </div>
 
+      <h1 className="section-title">Other Artworks</h1>
       <div className="other-artworks">
-        <h1 className="section-title">Other Artworks</h1>
         {otherartworks.map((otherart, index) => {
           if (otherart.title !== "Wildflower Series") {
             return (

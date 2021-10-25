@@ -25,6 +25,7 @@ const ColorsProject = () => {
       <div className="colors-container">
         <div className="series-info">
           <h1 className="series-title">FEELING COLORS</h1>
+          <h2 className="type">VIDEO</h2>
           <p className="colors-statement">
             <strong>FEELING COLORS.</strong> There are a lot of mundane things
             in life that we overlook. People all have their own daily routines
@@ -68,8 +69,8 @@ const ColorsProject = () => {
         </div>
       </div>
 
+      <h1 className="section-title">Other Artworks</h1>
       <div className="other-artworks">
-        <h1 className="section-title">Other Artworks</h1>
         {otherartworks.map((otherart, index) => {
           if (otherart.title !== "Feeling Colors") {
             return (
