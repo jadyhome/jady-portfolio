@@ -55,17 +55,6 @@
   object-fit: contain;
   pointer-events: none;
 }
-.gif-container {
-  display: grid;
-  row-gap: 50px;
-  position: relative;
-  justify-items: center;
-  margin-bottom: 100px;
-}
-.gif {
-  width: 50%;
-  pointer-events: none;
-}
 
 .colorsproj {
   margin: 0 100px 100px 100px;

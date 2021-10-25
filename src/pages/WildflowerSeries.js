@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import { wildflowerdataOne } from "../wildflowerdataOne";
 import { wildflowerdata } from "../wildflowerdata";
 import { artworksdata } from "../artworksdata";
-import wildGif from "../wildflowers.gif";
 import "../styles/Artworks.css";
 
 const WildflowerSeries = () => {
@@ -66,10 +65,6 @@ const WildflowerSeries = () => {
             </div>
           );
         })}
-      </div>
-
-      <div className="gif-container">
-        <img src={wildGif} alt="wildflowerbook-gif" className="gif" />
       </div>
 
       <h1 className="section-title2">Other Artworks</h1>
