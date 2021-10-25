@@ -50,7 +50,7 @@ const FlowerSeries = () => {
       <h1 className="section-title">Other Artworks</h1>
       <div className="other-artworks">
         {otherartworks.map((otherart, index) => {
-          if (otherart.title !== "Wildflower Series") {
+          if (otherart.title !== "Flowers + Plants Series") {
             return (
               <div key={index} className="arts">
                 <div className="artcover-image">{otherart.image}</div>
