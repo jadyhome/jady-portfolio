@@ -29,7 +29,7 @@ Check out my portfolio website → [Here](https://jadyhom.netlify.app/)
 ### Future Updates
 
 - [ ] More Projects!
-- [ ] Work In Progress: Illustrations
+- [x] Work In Progress: Illustrations
 
 ---
 
