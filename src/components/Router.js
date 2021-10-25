@@ -3,8 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import WildflowerSeries from "../pages/WildflowerSeries";
 import ColorsProject from "../pages/ColorsProject";
-// import WimbSeries from "../pages/WimbSeries";
-// import FlowerSeries from "../pages/FlowerSeries";
+import FlowerSeries from "../pages/FlowerSeries";
 
 const Router = () => {
   const [pageLoading, setPageLoading] = useState(true);
@@ -25,8 +24,7 @@ const Router = () => {
             component={() => <WildflowerSeries />}
           />
           <Route path="/colorsproject" component={() => <ColorsProject />} />
-          {/* <Route path="/whatsinmybagseries" component={() => <WimbSeries />} /> */}
-          {/* <Route path="/flowerseries" component={() => <FlowerSeries />} /> */}
+          <Route path="/flowerseries" component={() => <FlowerSeries />} />
         </Switch>
       )}
     </main>
