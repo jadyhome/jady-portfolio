@@ -50,7 +50,7 @@ const FlowerSeries = () => {
         })}
       </div>
 
-      <h1 className="section-title">Other Artworks</h1>
+      <h1 className="section-title2">Other Artworks</h1>
       <div className="other-artworks">
         {otherartworks.map((otherart, index) => {
           if (otherart.title !== "Flowers + Plants Series") {
