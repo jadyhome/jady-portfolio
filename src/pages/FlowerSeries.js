@@ -30,15 +30,12 @@ const FlowerSeries = () => {
       <Navbar />
       <div className="bot-container">
         <div className="series-info">
-          <h1 className="series-title">Flower Series</h1>
+          <h1 className="series-title">Flower + Plants Series</h1>
           <h2 className="type">DIGITAL</h2>
           <p>
             I used Procreate to create a series of digital illustrations of
             flowers and plants. These illustrations can work as black and white
             line work as well as using a variety of colors.
-            <br />
-            <br />
-            The main idea is to use the colors of the rainbow for their colors.
           </p>
         </div>
         {botany.map((bot, index) => {
