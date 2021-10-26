@@ -15,20 +15,74 @@
   margin-block-start: 0;
 }
 
+/** ARTWORKS SECTION **/
+.artworks {
+  margin: 0 100px 100px 100px;
+}
+.artworks-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  row-gap: 30px;
+  gap: 50px;
+  position: relative;
+  justify-items: center;
+}
+.arts {
+  width: 450px;
+}
+.art-title {
+  font-weight: 900;
+  font-size: 32px;
+}
+.art-brief {
+  font-weight: normal;
+  font-size: 20px;
+}
+.art-image {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  margin: 0 auto;
+  position: relative;
+  transition: transform 200ms ease;
+}
+.art-image:hover {
+  cursor: pointer;
+  transform: rotate(-2deg);
+}
+/** ARTWORKS SECTION **/
+
+/** OTHER ARTWORKS SECTION **/
+.section-title2 {
+  margin-left: 100px;
+}
+.other-artworks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  row-gap: 30px;
+  gap: 50px;
+  position: relative;
+  justify-items: center;
+}
+/** OTHER ARTWORKS SECTION **/
+
+/** FLOWERS + PLANTS PAGE **/
 .bot-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   row-gap: 50px;
   position: relative;
   justify-items: center;
-  margin: 100px 30px;
+  margin: 100px;
 }
 .flower-image {
-  width: 500px;
+  width: 700px;
   object-fit: contain;
   pointer-events: none;
 }
+/** FLOWERS + PLANTS PAGE **/
 
+/** WILDFLOWER PAGE **/
 .wild-container {
   display: grid;
   row-gap: 50px;
@@ -55,7 +109,9 @@
   object-fit: contain;
   pointer-events: none;
 }
+/** WILDFLOWER PAGE **/
 
+/** FEELING COLORS PAGE **/
 .colorsproj {
   margin: 0 100px 100px 100px;
   margin-bottom: 0;
@@ -75,72 +131,9 @@
   font-family: "Karla", sans-serif;
   font-size: 20px;
 }
+/** FEELING COLORS PAGE **/
 
-.wimb-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-  row-gap: 50px;
-  position: relative;
-  justify-items: center;
-  margin: 100px;
-}
-.wimb-image {
-  width: 600px;
-  object-fit: contain;
-  pointer-events: none;
-}
-
-.artworks {
-  margin: 0 100px 100px 100px;
-}
-.artworks-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  row-gap: 30px;
-  gap: 50px;
-  position: relative;
-  justify-items: center;
-}
-
-.arts {
-  width: 450px;
-}
-
-.art-title {
-  font-weight: 900;
-  font-size: 32px;
-}
-
-.art-brief {
-  font-weight: normal;
-  font-size: 20px;
-}
-
-.art-image {
-  width: 450px;
-  height: 450px;
-  object-fit: cover;
-  margin: 0 auto;
-  position: relative;
-  transition: transform 200ms ease;
-}
-.art-image:hover {
-  cursor: pointer;
-  transform: rotate(-2deg);
-}
-
-.section-title2 {
-  margin-left: 100px;
-}
-.other-artworks {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  row-gap: 30px;
-  gap: 50px;
-  position: relative;
-  justify-items: center;
-}
-
+/** @MEDIA FOR MOBILE RESPONSIVENESS **/
 @media screen and (max-width: 1440px) and (max-height: 900px) {
   .wildflowerseries,
   .colorsproj {
@@ -292,3 +285,4 @@
     pointer-events: none;
   }
 }
+/** @MEDIA FOR MOBILE RESPONSIVENESS **/
