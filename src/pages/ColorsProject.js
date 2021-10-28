@@ -65,7 +65,12 @@ const ColorsProject = () => {
         </div>
 
         <div className="player-wrapper">
-          <ReactPlayer url="https://youtu.be/sROMMwvvJVQ" controls="true" />
+          <ReactPlayer
+            url="https://youtu.be/sROMMwvvJVQ"
+            controls="true"
+            width="100%"
+            height="100%"
+          />
         </div>
       </div>
 
