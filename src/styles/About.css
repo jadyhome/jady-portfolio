@@ -138,37 +138,38 @@ footer {
     font-size: 26px;
   }
   footer {
-    padding-top: 40px;
+    padding-top: 50px;
+    text-align: right;
   }
 }
 @media screen and (max-width: 1366px) and (max-height: 1024px) {
   .about {
-    margin-bottom: 0;
+    margin: 0;
   }
   .hello {
     font-size: 30px;
   }
   .profile-pic {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
   }
   .about-info {
     width: 300px;
     height: 300px;
   }
   .skills {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
   }
   .tech {
-    font-size: 22px;
+    font-size: 28px;
   }
   .skills {
-    font-size: 20px;
+    font-size: 22px;
   }
   footer {
     font-size: 18px;
-    padding-top: 40px;
+    padding-top: 50px;
   }
 }
 @media screen and (max-width: 1024px) and (max-height: 1366px) {
@@ -196,10 +197,48 @@ footer {
     font-size: 18px;
   }
   footer {
-    padding-top: 40px;
+    padding-top: 50px;
     font-weight: bold;
     font-size: 20px;
-    text-align: center;
+    text-align: right;
+  }
+}
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+  .about-me {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+  .about {
+    margin: 0 50px 0 50px;
+  }
+  .hello {
+    font-size: 20px;
+  }
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+  }
+  .about-info {
+    width: 200px;
+    height: 200px;
+    font-size: 12px;
+  }
+  .tech {
+    font-size: 20px;
+  }
+  ol {
+    padding: 0;
+  }
+  .skills {
+    width: 200px;
+    height: 200px;
+    font-size: 16px;
+  }
+  footer {
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
   }
 }
 @media screen and (max-width: 420px) {
@@ -209,39 +248,49 @@ footer {
   .about-me {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 50px;
     justify-items: center;
     align-content: center;
   }
   footer {
-    padding: 30px 0 30px 0;
+    text-align: center;
     color: #323232;
     font-weight: bold;
     font-size: 14px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .about {
     margin: 0 auto;
   }
   .hello {
-    font-size: 24px;
+    font-size: 20px;
   }
   .profile-pic {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
   .about-info {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     font-size: 12px;
   }
+  .social-links {
+    font-size: 20px;
+  }
+  .tech {
+    font-size: 22px;
+  }
+  ol {
+    padding: 0;
+  }
   .skills {
-    width: 250px;
-    height: 250px;
-    font-size: 18px;
+    width: 200px;
+    height: 200px;
+    font-size: 16px;
   }
   footer {
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 40px;
   }
 }
